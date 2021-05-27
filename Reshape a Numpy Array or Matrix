@@ -1,0 +1,15 @@
+## How to Reshape a Numpy Array or Matrix
+def Kickstarter_Example_4():
+    print()
+    print(format('How to Reshape a Numpy Array', '*^52'))
+
+    # Load library
+    import numpy as np
+
+    # Create a 4x3 matrix
+    matrix = np.array([[1, 2, 3],
+                       [4, 5, 6],
+                       [7, 8, 9],
+                       [10, 11, 12]])
+
+    # Reshape matrix into 2x6 matrix
